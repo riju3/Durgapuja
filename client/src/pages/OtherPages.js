@@ -35,7 +35,7 @@ export function About() {
             </div>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', marginTop: '60px' }} className="stats-grid">
-            {[['25+', 'Years of Celebration'], ['500+', 'Families United'], ['7', 'Days of Festivity']].map(([num, label]) => (
+            {[['300+', 'Years of Celebration'], ['50+', 'Families United'], ['7', 'Days of Festivity']].map(([num, label]) => (
               <div key={label} style={{ textAlign: 'center', padding: '40px 20px', background: '#fff', borderRadius: '12px', boxShadow: '0 4px 15px rgba(0,0,0,0.06)', borderTop: '4px solid #C0392B' }}>
                 <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3rem', color: '#C0392B', fontWeight: '900' }}>{num}</h3>
                 <p style={{ color: '#7a5c4f', fontWeight: '500', marginTop: '8px' }}>{label}</p>
