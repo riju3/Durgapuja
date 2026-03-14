@@ -117,7 +117,7 @@ export default function Home() {
           <div style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 8px 30px rgba(0,0,0,0.15)', aspectRatio: '16/9' }}>
             <iframe
               width="100%" height="100%"
-              src={settings.youtubeUrl || 'https://www.youtube.com/embed/dQw4w9WgXcQ'}
+              src={settings.youtubeUrl || 'https://www.youtube.com/shorts/f_i60KU7nrU?feature=share'}
               title="Durga Puja" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen style={{ display: 'block' }}

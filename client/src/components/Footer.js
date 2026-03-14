@@ -64,7 +64,7 @@ export default function Footer() {
               <li><a href={`mailto:${settings.email}`} style={linkStyle}>{settings.email}</a></li>
             </ul>
             <p style={{ color: '#c9a87c', fontSize: '0.82rem', marginTop: '8px', fontFamily: 'Hind Siliguri, sans-serif' }}>
-              {settings.addressBn || 'চৌধুরীবাটি, দুর্গাপুর'}
+              {settings.addressBn || 'চৌধুরীবাটি, Dirghagram (দীর্ঘগ্রাম), West Bengal, India'}
             </p>
           </div>
         </div>

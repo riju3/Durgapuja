@@ -98,7 +98,7 @@ export default function AdminGallery() {
       {/* Filter */}
       <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
         <span style={{ color: '#7a5c4f', fontWeight: '600' }}>Filter by year:</span>
-        {['', 2025, 2024, 2023].map(y => (
+        {['', 2025, 2024, 2023, 2022].map(y => (
           <button key={y} onClick={() => setYearFilter(y)}
             style={{ padding: '6px 18px', border: '2px solid #C0392B', borderRadius: '20px', cursor: 'pointer', background: yearFilter == y ? '#C0392B' : '#fff', color: yearFilter == y ? '#fff' : '#C0392B', fontWeight: '600', fontSize: '0.85rem' }}>
             {y || 'All'}
